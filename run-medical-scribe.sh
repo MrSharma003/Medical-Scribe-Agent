@@ -109,10 +109,10 @@ setup_backend() {
         print_warning "Creating .env file template..."
         cat > .env << EOL
 # Deepgram API Configuration
-DEEPGRAM_API_KEY=a49bdf264b3a0810766acb16e9a429801d55a061
+DEEPGRAM_API_KEY=api-key
 
 # Google Gemini API Configuration  
-GOOGLE_API_KEY=AIzaSyDI5tUTNiQ5NycRxBh5zMrzD091N-3PR-Y
+GOOGLE_API_KEY=api-key
 
 # Flask Configuration
 FLASK_ENV=development
